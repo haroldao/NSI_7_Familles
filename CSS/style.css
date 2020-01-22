@@ -74,7 +74,7 @@ img.portrait{
     font-size: 3rem;
     color: var(--white);
     position: sticky;
-    top:10px;
+    top:0;
     
     
 }
