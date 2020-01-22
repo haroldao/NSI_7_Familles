@@ -3,8 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
-
+    font-size: 62.5%;
 }
 
 :root{
@@ -16,16 +15,117 @@
     --violet2:#6237A0;
     --violet3:#9754CB;
     --violet4: #DEACF5;
+
 }
 
 body{
-    background-color:var(--grey);
+    background-color:var(--violet);
     margin-left: 10px;
     margin-right: 20px;
 }
 
+/* IMPORTATION POLICES */
+@font-face{
+    font-family: Sofia Pro;
+    src: url(/Fonts/sofiapro-light.otf);
+}
+
+@font-face{
+    font-family: Space Mano;
+    src: url(/Fonts/SpaceMono-Regular.ttf);
+}
+
+
+/* IMAGE TIM */
+.portrait_pic{
+    margin-top: 3rem;
+    /* border: 6px var(--violet2); */
+
+    
+}
+
+img.portrait{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+
 /* CENTER TEXTE */
-h1 .centre{
+#nom{
+    color: var(--white);
+    font-family: 'Space Mono';
+    text-shadow: 0 2.8px 2.2px rgba(0,0,0,0.2);
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.navbar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: var(--white);
+   
+}
+
+.navbar :hover{
+    color: var(--violet4);
+
+}
+
+ul.navbar{
+    background-color: var(--violet);
+    margin-top:10px;
+    margin-bottom: 20px;
+    padding: 0;
+    border-radius: 10px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li.navbar{
+    float: left;
+    
+
+}
+
+li a {
+    color: var(--black);
+    color: white;
+    text-align: center;
+    padding: 14px 14px 20px 20px;
+    display: block;
+    text-decoration: none;
+}
+
+/* .active{
+    background-color: var(--grey);
+    color:var(--black);
+    font-weight: bold;  
+    /* padding: 14px 14px 20px 20px; */
+    border-radius: 10px;
+    text-decoration: none;  
+}  */
+
+
+ul{
+    list-style-type: none;
+}
+
+p{
+    color: black;
+    
+}
+
+
+/* CENTER TEXTE */
+/* h1 .centre{
     text-align: center;
 }
 
@@ -55,10 +155,10 @@ p{
 
 p .centre{
     text-align: center;
-}
+} */
 
 /* NAV */
-ul.navbar{
+/* ul.navbar{
     background-color: var(--violet);
     margin-top:10px;
     margin-bottom: 20px;
@@ -91,10 +191,10 @@ li a {
     border-radius: 10px;
     text-decoration: none;
 
-}
+} */
 
  /* IMAGE TIM */
-.portrait_pic{
+/* .portrait_pic{
     margin-top: 30px;
     
 }
@@ -107,10 +207,10 @@ img.portrait{
     display: block;
     margin: auto;
     border-radius: 50%;
-}
+} */
 
 /* TEXTE SECTION */
-div.corps{
+/* div.corps{
 
     background-color: var(--violet4);
     width: 80%;
@@ -138,5 +238,5 @@ h4{
 
 .navbar :hover{
     color: var(--violet4);
-}
+} */
 
