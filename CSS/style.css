@@ -72,7 +72,7 @@ img.portrait{
 /* CENTER TEXTE */
 #nom{
     color: var(--white);
-    font-family: 'Space Mono';
+    font-family: "Space Mano";
     text-shadow: 0 2.8px 2.2px rgba(0,0,0,0.2);
     font-size: 3.5rem;
     text-align: center;
@@ -177,7 +177,7 @@ p .centre{
 }
 
 .corps h4, .corps p, .corps a{
-    font-family: 'Space Mono';
+    font-family: "Space Mano";
     font-size: 3rem;
     /* font-weight: lighter;    */
     color: var(--white);
