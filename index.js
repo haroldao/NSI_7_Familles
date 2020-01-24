@@ -14,15 +14,15 @@ function minImage() {
     // console.log(minImage);
 }
 
-function changeRightArrow() {
-    document.getElementsByClassName("arrow").style.height="200px"
+// function changeRightArrow() {
+//     document.getElementsByClassName("arrow").
 
-}
+// }
 
 
-function changeLeftArrow () {
+// function changeLeftArrow () {
 
-}
+// }
 
 
 
