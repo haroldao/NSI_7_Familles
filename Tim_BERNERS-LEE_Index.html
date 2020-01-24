@@ -7,11 +7,20 @@
     <title>BERNERS-LEE Tim</title>
     <link rel="stylesheet" href="css/style.css"> 
 </head>
-<body>
+<body onload="onLoad()">
+    
     <div class="portrait_pic">
-        <img src="./IMG/Tim_Berners-Lee-min-square.png" alt="Tim Portrait" class="portrait">
+        <img onmouseover="maxImage()" onmouseout="minImage()" src="./IMG/Tim_Berners-Lee-min-square.png" alt="Tim Portrait" id="portrait">
     </div>
     
+    <!-- <div class="navigation">
+        <img onmouseover= "changeRightArrow()"  src="IMG/image_fleches/fleche_droite_pleine.png" alt="" class="arrow">
+        <img onmouseout= "changeRightArrow()" src="IMG/image_fleches/fleche_droite_vide.png" alt="" class="arrow">
+ 
+        <img onmouseover= "changeLeftArrow()"   src="IMG/image_fleches/fleche_gauche_pleine.png" alt="" class="arrow">
+        <img onmouseout= "changeRightArrow()" src="IMG/image_fleches/fleche_gauche_vide.png" alt="" class="arrow">
+
+    </div> -->
     <h1 id="nom">BERNERS-LEE Tim</h1>
 
     <ul class="navbar">
@@ -73,8 +82,19 @@
                     Formation
                 </h4>
             </li>
+
+            <li>
+                <h4>
+                    <span class="bold" >
+                    Age:
+                    </span> 
+                    
+                    <span id="age"> <h4>Age</h4></span>
+                </h4>
+            </li>
         </ul>
     </div>
-    <div class="copyright">Par ARABA Harold</div>  
+    <div class="copyright">Par ARABA Harold</div> 
+    <script type="text/javascript" src="./index.js"></script>
 </body>
 </html>

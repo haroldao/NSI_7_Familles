@@ -56,23 +56,36 @@ body::-webkit-scrollbar-thumb:hover {
     margin-top: 3rem;
     /* border: 6px var(--violet2); */
 
+
     
 }
 
-img.portrait{
+#portrait{
+    cursor: pointer;
     width: 150px;
     height: 150px;
     display: block;
     margin: auto;
     border-radius: 50%;
     
+
+    
 }
 
+
+div.navigation {
+    text-align: center;
+}
+
+.arrow{
+    width: 100px;
+    height: 100px;
+}
 
 /* CENTER TEXTE */
 #nom{
     color: var(--white);
-    font-family: 'Space Mono';
+    font-family: "Space Mano";
     text-shadow: 0 2.8px 2.2px rgba(0,0,0,0.2);
     font-size: 3.5rem;
     text-align: center;
@@ -177,7 +190,7 @@ p .centre{
 }
 
 .corps h4, .corps p, .corps a{
-    font-family: 'Space Mono';
+    font-family: "Space Mano";
     font-size: 3rem;
     /* font-weight: lighter;    */
     color: var(--white);
@@ -250,5 +263,5 @@ ul li:before{
     right: 0;
     margin: 0 20px 20px 0;
     mix-blend-mode: difference;
-    background-color: var(--black);
+    /* background-color: var(--black); */
 }
