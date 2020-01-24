@@ -56,18 +56,31 @@ body::-webkit-scrollbar-thumb:hover {
     margin-top: 3rem;
     /* border: 6px var(--violet2); */
 
+
     
 }
 
-img.portrait{
+#portrait{
+    cursor: pointer;
     width: 150px;
     height: 150px;
     display: block;
     margin: auto;
     border-radius: 50%;
     
+
+    
 }
 
+
+div.navigation {
+    text-align: center;
+}
+
+.arrow{
+    width: 100px;
+    height: 100px;
+}
 
 /* CENTER TEXTE */
 #nom{
@@ -250,5 +263,5 @@ ul li:before{
     right: 0;
     margin: 0 20px 20px 0;
     mix-blend-mode: difference;
-    background-color: var(--black);
+    /* background-color: var(--black); */
 }
