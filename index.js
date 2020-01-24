@@ -22,7 +22,7 @@ function minImage() {
 
 // function changeLeftArrow () {
 
-// }
+// } 
 
 
 
