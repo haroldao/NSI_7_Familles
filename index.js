@@ -15,8 +15,20 @@ function minImage() {
 }
 
 function changeRightArrow() {
-    
-    document.getElementById("right__full").src='IMG/image_fleches/fleche_droite_vide.png';
+    if (document.getElementById("right__full").className.match("right arrow full false")) {
+        
+        document.getElementById("right__full").src='IMG/image_fleches/fleche_droite_vide.png';
+        document.getElementById("right__full").style.height='110px';
+        document.getElementById("right__full").className= "true";
+
+    }else{
+
+        document.getElementById("right__empty").src='IMG/image_fleches/fleche_droite_pleine.png';
+        document.getElementById("right__full").style.height='110px';
+        document.getElementById("right__full").className= "right arrow full false";
+        
+    }
+   
     
 
 }
@@ -24,7 +36,17 @@ function changeRightArrow() {
 
 function changeLeftArrow () {
 
-    document.getElementById("left__full").src='IMG/image_fleches/fleche_gauche_vide.png';
+    if (document.getElementById("left__full").className.match("left arrow full false")) {
+        
+        document.getElementById("left__full").src='IMG/image_fleches/fleche_gauche_vide.png';
+        document.getElementById("left__full").style.height='110px';
+
+    }else{
+
+        document.getElementById("left__empty").src='IMG/image_fleches/fleche_gauche_pleine.png';
+        
+    }
+   
 
 } 
 
