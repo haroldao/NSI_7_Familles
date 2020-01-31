@@ -14,15 +14,19 @@ function minImage() {
     // console.log(minImage);
 }
 
-// function changeRightArrow() {
-//     document.getElementsByClassName("arrow").
+function changeRightArrow() {
+    
+    document.getElementById("right__full").src='IMG/image_fleches/fleche_droite_vide.png';
+    
 
-// }
+}
 
 
-// function changeLeftArrow () {
+function changeLeftArrow () {
 
-// } 
+    document.getElementById("left__full").src='IMG/image_fleches/fleche_gauche_vide.png';
+
+} 
 
 
 
