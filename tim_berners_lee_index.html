@@ -10,17 +10,24 @@
 <body onload="onLoad()">
     
     <div class="portrait_pic">
+        <div class="navigation">
+            <img onmouseover= "changeLeftArrow()" onmouseout="changeLeftArrow()"  src="IMG/image_fleches/fleche_gauche_pleine.png" alt="" class="left arrow" id="left__full">
+            <img onmouseout= "changeLeftArrow()" src="IMG/image_fleches/fleche_gauche_vide.png" alt="" class="left arrow empty" id="left__empty">
+
+        </div>
+       
         <img onmouseover="maxImage()" onmouseout="minImage()" src="./IMG/Tim_Berners-Lee-min-square.png" alt="Tim Portrait" id="portrait">
+
+        <div class="navigation">
+            
+            <img onmouseover= "changeRightArrow()"  src="IMG/image_fleches/fleche_droite_pleine.png" alt="" class="right arrow" id="right__full">
+            <img onmouseout= "changeRightArrow()" src="IMG/image_fleches/fleche_droite_vide.png" alt="" class="right arrow empty" id="right__empty">
+
+        </div>
     </div>
     
-    <!-- <div class="navigation">
-        <img onmouseover= "changeRightArrow()"  src="IMG/image_fleches/fleche_droite_pleine.png" alt="" class="arrow">
-        <img onmouseout= "changeRightArrow()" src="IMG/image_fleches/fleche_droite_vide.png" alt="" class="arrow">
- 
-        <img onmouseover= "changeLeftArrow()"   src="IMG/image_fleches/fleche_gauche_pleine.png" alt="" class="arrow">
-        <img onmouseout= "changeRightArrow()" src="IMG/image_fleches/fleche_gauche_vide.png" alt="" class="arrow">
+    
 
-    </div> -->
     <h1 id="nom">BERNERS-LEE Tim</h1>
 
     <ul class="navbar">

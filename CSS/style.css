@@ -53,10 +53,12 @@ body::-webkit-scrollbar-thumb:hover {
 
 /* IMAGE TIM */
 .portrait_pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     margin-top: 3rem;
     /* border: 6px var(--violet2); */
-
-
     
 }
 
@@ -65,7 +67,7 @@ body::-webkit-scrollbar-thumb:hover {
     width: 150px;
     height: 150px;
     display: block;
-    margin: auto;
+    margin: 0 10rem 0 10rem;
     border-radius: 50%;
     
 
@@ -75,14 +77,42 @@ body::-webkit-scrollbar-thumb:hover {
 
 div.navigation {
     text-align: center;
+    
 }
+
+/* ARROW */
 
 .arrow{
+    /* position: absolute; */
     width: 100px;
     height: 100px;
+    filter: invert(40%) sepia(45%) saturate(3734%) hue-rotate(249deg) brightness(88%) contrast(79%);
+      
+    
+}
+ 
+
+@media screen and (max-width: 600px)  {
+    .arrow{
+        display: none;
+    }
 }
 
-/* CENTER TEXTE */
+@media screen and (max-width: 800px)  {
+    #portrait{
+        margin: 2.4rem;
+    }
+}
+
+.empty{
+    display: none;
+}
+
+.left {
+    float: left;
+}
+
+/* CENTER TEXT */
 #nom{
     color: var(--white);
     font-family: "Space Mano";
